@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E121CA64173FF02E004AEF53 /* QSiTerm2Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E121CA63173FF02E004AEF53 /* QSiTerm2Utils.m */; };
+		E121CA64173FF02E004AEF53 /* QSiTerm3Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E121CA63173FF02E004AEF53 /* QSiTerm3Utils.m */; };
 		E188D3F31520F03700176E28 /* iTerm.app in Resources */ = {isa = PBXBuildFile; fileRef = E188D3F21520F03700176E28 /* iTerm.app */; };
 		E188D3F51520F09A00176E28 /* iTerm.app in Sources */ = {isa = PBXBuildFile; fileRef = E188D3F21520F03700176E28 /* iTerm.app */; };
-		E1CFAC71151E6E5D005721A7 /* QSiTerm2ActionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CFAC70151E6E5D005721A7 /* QSiTerm2ActionProvider.m */; };
-		E1D1658315220B63004837CC /* QSiTerm2ObjectSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D1658215220B63004837CC /* QSiTerm2ObjectSource.m */; };
+		E1CFAC71151E6E5D005721A7 /* QSiTerm3ActionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CFAC70151E6E5D005721A7 /* QSiTerm3ActionProvider.m */; };
+		E1D1658315220B63004837CC /* QSiTerm3ObjectSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D1658215220B63004837CC /* QSiTerm3ObjectSource.m */; };
 		E1E4B4FE1518E4D00063F299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E4B4FD1518E4D00063F299 /* Cocoa.framework */; };
 		E1E4B5041518E4D00063F299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1E4B5021518E4D00063F299 /* InfoPlist.strings */; };
-		E1E4B5221518E6F70063F299 /* QSiTerm2TerminalMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B5211518E6F70063F299 /* QSiTerm2TerminalMediator.m */; };
+		E1E4B5221518E6F70063F299 /* QSiTerm3TerminalMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B5211518E6F70063F299 /* QSiTerm3TerminalMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -32,15 +32,15 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
-		E121CA62173FF02E004AEF53 /* QSiTerm2Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm2Utils.h; sourceTree = "<group>"; };
-		E121CA63173FF02E004AEF53 /* QSiTerm2Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm2Utils.m; sourceTree = "<group>"; };
+		E121CA62173FF02E004AEF53 /* QSiTerm3Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm3Utils.h; sourceTree = "<group>"; };
+		E121CA63173FF02E004AEF53 /* QSiTerm3Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm3Utils.m; sourceTree = "<group>"; };
 		E188D3F21520F03700176E28 /* iTerm.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = iTerm.app; path = /Applications/iTerm.app; sourceTree = "<absolute>"; };
-		E1CFAC6F151E6E5D005721A7 /* QSiTerm2ActionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm2ActionProvider.h; sourceTree = "<group>"; };
-		E1CFAC70151E6E5D005721A7 /* QSiTerm2ActionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm2ActionProvider.m; sourceTree = "<group>"; };
-		E1D1658115220B63004837CC /* QSiTerm2ObjectSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm2ObjectSource.h; sourceTree = "<group>"; };
-		E1D1658215220B63004837CC /* QSiTerm2ObjectSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm2ObjectSource.m; sourceTree = "<group>"; };
+		E1CFAC6F151E6E5D005721A7 /* QSiTerm3ActionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm3ActionProvider.h; sourceTree = "<group>"; };
+		E1CFAC70151E6E5D005721A7 /* QSiTerm3ActionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm3ActionProvider.m; sourceTree = "<group>"; };
+		E1D1658115220B63004837CC /* QSiTerm3ObjectSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm3ObjectSource.h; sourceTree = "<group>"; };
+		E1D1658215220B63004837CC /* QSiTerm3ObjectSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm3ObjectSource.m; sourceTree = "<group>"; };
 		E1D165881524BD17004837CC /* QSiTerm2Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm2Definitions.h; sourceTree = "<group>"; };
-		E1E4B4FA1518E4D00063F299 /* iTerm2.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTerm2.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E4B4FA1518E4D00063F299 /* iTerm2.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iTerm2.bundle; path = iTerm3.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E4B4FD1518E4D00063F299 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E1E4B5011518E4D00063F299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E1E4B5031518E4D00063F299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		E1E4B5091518E4D00063F299 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		E1E4B50C1518E4D00063F299 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		E1E4B50D1518E4D00063F299 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		E1E4B5201518E6F70063F299 /* QSiTerm2TerminalMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm2TerminalMediator.h; sourceTree = "<group>"; };
-		E1E4B5211518E6F70063F299 /* QSiTerm2TerminalMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm2TerminalMediator.m; sourceTree = "<group>"; };
+		E1E4B5201518E6F70063F299 /* QSiTerm3TerminalMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSiTerm3TerminalMediator.h; sourceTree = "<group>"; };
+		E1E4B5211518E6F70063F299 /* QSiTerm3TerminalMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSiTerm3TerminalMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		E1E4B4FB1518E4D00063F299 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1E4B4FA1518E4D00063F299 /* iTerm2.qsplugin */,
+				E1E4B4FA1518E4D00063F299 /* iTerm2.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,15 +97,15 @@
 			children = (
 				E1E4B5051518E4D00063F299 /* Configuration */,
 				E1E4B5001518E4D00063F299 /* Supporting Files */,
-				E1CFAC6F151E6E5D005721A7 /* QSiTerm2ActionProvider.h */,
-				E1CFAC70151E6E5D005721A7 /* QSiTerm2ActionProvider.m */,
+				E1CFAC6F151E6E5D005721A7 /* QSiTerm3ActionProvider.h */,
+				E1CFAC70151E6E5D005721A7 /* QSiTerm3ActionProvider.m */,
 				E1D165881524BD17004837CC /* QSiTerm2Definitions.h */,
-				E1D1658115220B63004837CC /* QSiTerm2ObjectSource.h */,
-				E1D1658215220B63004837CC /* QSiTerm2ObjectSource.m */,
-				E1E4B5201518E6F70063F299 /* QSiTerm2TerminalMediator.h */,
-				E1E4B5211518E6F70063F299 /* QSiTerm2TerminalMediator.m */,
-				E121CA62173FF02E004AEF53 /* QSiTerm2Utils.h */,
-				E121CA63173FF02E004AEF53 /* QSiTerm2Utils.m */,
+				E1D1658115220B63004837CC /* QSiTerm3ObjectSource.h */,
+				E1D1658215220B63004837CC /* QSiTerm3ObjectSource.m */,
+				E1E4B5201518E6F70063F299 /* QSiTerm3TerminalMediator.h */,
+				E1E4B5211518E6F70063F299 /* QSiTerm3TerminalMediator.m */,
+				E121CA62173FF02E004AEF53 /* QSiTerm3Utils.h */,
+				E121CA63173FF02E004AEF53 /* QSiTerm3Utils.m */,
 			);
 			path = iTerm2;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1E4B4F91518E4D00063F299 /* iTerm2 */ = {
+		E1E4B4F91518E4D00063F299 /* iTerm3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1E4B5191518E4D00063F299 /* Build configuration list for PBXNativeTarget "iTerm2" */;
+			buildConfigurationList = E1E4B5191518E4D00063F299 /* Build configuration list for PBXNativeTarget "iTerm3" */;
 			buildPhases = (
 				E1E4B4F81518E4D00063F299 /* Update version and documentation */,
 				E1E4B4F51518E4D00063F299 /* Sources */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = iTerm2;
+			name = iTerm3;
 			productName = iTerm2;
-			productReference = E1E4B4FA1518E4D00063F299 /* iTerm2.qsplugin */;
+			productReference = E1E4B4FA1518E4D00063F299 /* iTerm2.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -161,10 +161,10 @@
 		E1E4B4F01518E4D00063F299 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = stdin.se;
 			};
-			buildConfigurationList = E1E4B4F31518E4D00063F299 /* Build configuration list for PBXProject "iTerm2" */;
+			buildConfigurationList = E1E4B4F31518E4D00063F299 /* Build configuration list for PBXProject "iTerm3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1E4B4F91518E4D00063F299 /* iTerm2 */,
+				E1E4B4F91518E4D00063F299 /* iTerm3 */,
 			);
 		};
 /* End PBXProject section */
@@ -216,10 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E188D3F51520F09A00176E28 /* iTerm.app in Sources */,
-				E1E4B5221518E6F70063F299 /* QSiTerm2TerminalMediator.m in Sources */,
-				E1CFAC71151E6E5D005721A7 /* QSiTerm2ActionProvider.m in Sources */,
-				E1D1658315220B63004837CC /* QSiTerm2ObjectSource.m in Sources */,
-				E121CA64173FF02E004AEF53 /* QSiTerm2Utils.m in Sources */,
+				E1E4B5221518E6F70063F299 /* QSiTerm3TerminalMediator.m in Sources */,
+				E1CFAC71151E6E5D005721A7 /* QSiTerm3ActionProvider.m in Sources */,
+				E1D1658315220B63004837CC /* QSiTerm3ObjectSource.m in Sources */,
+				E121CA64173FF02E004AEF53 /* QSiTerm3Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +241,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1E4B5071518E4D00063F299 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -249,6 +253,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1E4B50D1518E4D00063F299 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 			};
 			name = Release;
 		};
@@ -256,7 +263,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1E4B5091518E4D00063F299 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.stdin.quicksilver.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = iTerm3;
 			};
 			name = Debug;
 		};
@@ -264,14 +272,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1E4B5091518E4D00063F299 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.stdin.quicksilver.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = iTerm3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1E4B4F31518E4D00063F299 /* Build configuration list for PBXProject "iTerm2" */ = {
+		E1E4B4F31518E4D00063F299 /* Build configuration list for PBXProject "iTerm3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1E4B5171518E4D00063F299 /* Debug */,
@@ -280,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1E4B5191518E4D00063F299 /* Build configuration list for PBXNativeTarget "iTerm2" */ = {
+		E1E4B5191518E4D00063F299 /* Build configuration list for PBXNativeTarget "iTerm3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1E4B51A1518E4D00063F299 /* Debug */,

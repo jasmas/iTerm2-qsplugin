@@ -7,15 +7,15 @@
 //
 
 #import "QSiTerm2Definitions.h"
-#import "QSiTerm2TerminalMediator.h"
-#import "QSiTerm2Utils.h"
+#import "QSiTerm3TerminalMediator.h"
+#import "QSiTerm3Utils.h"
 
 #define QSShellCommandType @"qs.shellcommand"
 
 // Quicksilver actions
-@interface QSiTerm2ActionProvider : QSActionProvider {
+@interface QSiTerm3ActionProvider : QSActionProvider {
     // The terminal is responsible for sending the actual commands to iTerm2
-    QSiTerm2TerminalMediator *terminalMediator;
+    QSiTerm3TerminalMediator *terminalMediator;
 }
 
 // Execute text

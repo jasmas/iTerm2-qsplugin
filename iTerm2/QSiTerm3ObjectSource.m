@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 stdin.se. All rights reserved.
 //
 
-#import "QSiTerm2ObjectSource.h"
+#import "QSiTerm3ObjectSource.h"
 
-@implementation QSiTerm2ObjectSource
+@implementation QSiTerm3ObjectSource
 
 
 /*
@@ -27,7 +27,7 @@
         id icon = [QSResourceManager imageNamed:kQSiTerm2Bundle];
         
         // Generate a child object for each of the sessions
-        for (NSString *sessionName in [QSiTerm2Utils sessions]) {
+        for (NSString *sessionName in [QSiTerm3Utils sessions]) {
             
             sessionObj = [QSObject objectWithName:sessionName];
             

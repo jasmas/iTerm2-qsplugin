@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 stdin.se. All rights reserved.
 //
 
-#import "QSiTerm2TerminalMediator.h"
+#import "QSiTerm3TerminalMediator.h"
 
-@implementation QSiTerm2TerminalMediator
+@implementation QSiTerm3TerminalMediator
 
 
 /*
@@ -18,28 +18,26 @@
     // iTerm2 does not run the command if there are trailing spaces in the command
     NSString *trimmedCommand = [command stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
     
-    iTermITermApplication *app = [SBApplication applicationWithBundleIdentifier:kQSiTerm2Bundle];
-    iTermTerminal *terminal;
+    iTermApplication *app = [SBApplication applicationWithBundleIdentifier:kQSiTerm2Bundle];
+    iTermWindow *window;
     iTermSession *session;
     
-    // Get terminal window
-    if (target == QSTerminalTargetWindow || app.terminals.count <= 0) {
-        terminal = [self createTerminalIn:app];
-    } else {
-        terminal = app.currentTerminal;
-    }
+    [app activate];
     
     // Get terminal session
-    if (target == QSTerminalTargetCurrent) {
-        session = app.currentTerminal.currentSession;
-    } else {
-        session = [terminal launchSession:[QSiTerm2Utils defaultSessionName]];
+    if (target == QSTerminalTargetWindow || app.windows.count <= 0) {
+        window = [self createTerminalIn:app];
+        session = window.currentSession;
+    } else if (target == QSTerminalTargetCurrent) {
+        window = app.currentWindow;
+        session = window.currentSession;
+    } else { // (target == QSTerminalTargetTab)
+        window = app.currentWindow;
+        session = [[app.currentWindow createTabWithDefaultProfileCommand:nil] autorelease].currentSession;
     }
-    
-    [app activate];
 
     // execCommand does not work, this does, don't know why...
-    [session writeContentsOfFile:nil text:trimmedCommand];
+    [session writeContentsOfFile:nil text:trimmedCommand newline:true];
 }
 
 
@@ -79,24 +77,20 @@
 /*
  Creates a new terminal window
  */
-- (iTermTerminal *) createTerminalIn:(iTermITermApplication *)app {
-    iTermTerminal *terminal = [[[app classForScriptingClass:@"terminal"] alloc] init];
-    [[app terminals] addObject:terminal];
-    
-    return [terminal autorelease];
+- (iTermWindow *) createTerminalIn:(iTermApplication *)app {
+    return [[app createWindowWithDefaultProfileCommand:nil] autorelease];
 }
 
 /*
  Open a named session in a new terminal window
  */
 - (void) openSession:(NSString *)sessionName target:(QSTerminalTarget)target {
-    iTermITermApplication *app = [SBApplication applicationWithBundleIdentifier:kQSiTerm2Bundle];
+    iTermApplication *app = [SBApplication applicationWithBundleIdentifier:kQSiTerm2Bundle];
     
-    if (target == QSTerminalTargetTab && [[app terminals] count] > 0) {
-        [app.currentTerminal launchSession:sessionName];
+    if (target == QSTerminalTargetTab && [[app windows] count] > 0) {
+        [app.currentWindow createTabWithDefaultProfileCommand:nil];
     } else {
-        iTermTerminal *terminal = [self createTerminalIn:app];
-        [terminal launchSession:sessionName];
+        [app createWindowWithDefaultProfileCommand:nil];
     }
 }
 

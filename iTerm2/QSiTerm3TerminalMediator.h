@@ -7,7 +7,7 @@
 //
 
 #import "QSiTerm2Definitions.h"
-#import "QSiTerm2Utils.h"
+#import "QSiTerm3Utils.h"
 #import "iTerm.h"
 
 // Quicksilver terminal mediator interface
@@ -16,7 +16,7 @@
 - (void) performCommandInTerminal: (NSString *)command;
 @end
 
-@interface QSiTerm2TerminalMediator : NSObject <QSTerminalMediator>
+@interface QSiTerm3TerminalMediator : NSObject <QSTerminalMediator>
 
 // Executes a command in the terminal target
 - (void) performCommandInTerminal:(NSString *)command target:(QSTerminalTarget)target;

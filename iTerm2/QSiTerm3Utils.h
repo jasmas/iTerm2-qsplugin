@@ -8,7 +8,7 @@
 
 #import "QSiTerm2Definitions.h"
 
-@interface QSiTerm2Utils : NSObject
+@interface QSiTerm3Utils : NSObject
 
 + (NSString *) defaultSessionName;
 + (NSArray *) sessions;

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 stdin.se. All rights reserved.
 //
 
-#import "QSiTerm2Utils.h"
+#import "QSiTerm3Utils.h"
 
-@implementation QSiTerm2Utils
+@implementation QSiTerm3Utils
 
 /*
  The name of the default session in iTerm2

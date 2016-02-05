@@ -7,9 +7,9 @@
 //
 
 #import "QSiTerm2Definitions.h"
-#import "QSiTerm2Utils.h"
+#import "QSiTerm3Utils.h"
 
-@interface QSiTerm2ObjectSource : QSObjectSource
+@interface QSiTerm3ObjectSource : QSObjectSource
 
 // QS method that loads the children when right arrowing into an object
 - (BOOL) loadChildrenForObject:(QSObject *)object;

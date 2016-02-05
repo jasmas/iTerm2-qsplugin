@@ -6,14 +6,14 @@
 //  Copyright (c) 2012 stdin.se. All rights reserved.
 //
 
-#import "QSiTerm2ActionProvider.h"
+#import "QSiTerm3ActionProvider.h"
 
-@implementation QSiTerm2ActionProvider
+@implementation QSiTerm3ActionProvider
 
 
 - (id) init {
 	if (self = [super init]) {
-        terminalMediator = [[QSiTerm2TerminalMediator alloc] init];
+        terminalMediator = [[QSiTerm3TerminalMediator alloc] init];
 	}
 	return self;
 }
@@ -263,7 +263,7 @@
  Open a new iTerm window
  */
 - (QSObject *) openNewWindow:(QSObject *)directObj {
-    [terminalMediator openSession:[QSiTerm2Utils defaultSessionName] target:QSTerminalTargetWindow];
+    [terminalMediator openSession:[QSiTerm3Utils defaultSessionName] target:QSTerminalTargetWindow];
     return nil;
 }
 
